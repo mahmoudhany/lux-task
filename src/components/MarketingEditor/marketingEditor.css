@@ -1,0 +1,39 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
+.marketing-editor {
+	min-height: 100vh;
+	justify-content: space-around;
+}
+.title h3 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 3.125rem;
+}
+.editor {
+	border: 1px solid #f1f1f1;
+	overflow: scroll;
+	min-height: 45vh;
+	max-height: 65vh;
+	margin: 2.5rem 0;
+}
+.btn,
+.btn:active {
+	background: #418dcb;
+	display: flex;
+	align-items: center;
+	border: 0;
+	margin-bottom: 10px;
+}
+.btn span {
+	margin-right: 1.25rem;
+	padding: 0.5rem 1rem;
+	font-weight: 600;
+	font-size: 1rem;
+}
+.btn:focus,
+.btn:hover {
+	outline: none;
+	box-shadow: none;
+	background: #78abd4;
+}

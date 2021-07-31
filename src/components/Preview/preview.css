@@ -1,0 +1,48 @@
+.preview {
+	background: url("../../assets/mobile.png") no-repeat;
+	position: relative;
+	max-width: 324px;
+	height: 633px;
+}
+@media screen and (max-width: 768px) {
+	.preview {
+		margin-top: 20px;
+		background: none;
+		max-width: 375px;
+	}
+}
+
+.preview::before {
+	content: "";
+	position: absolute;
+	background: #d6ecf8;
+	top: 20px;
+	left: 20px;
+	bottom: 20px;
+	right: 20px;
+	z-index: -1;
+}
+
+.content {
+	background: #fff;
+	position: absolute;
+	border-radius: 30px;
+	max-height: 600px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	word-break: break-all;
+	top: 80px;
+	bottom: 80px;
+	left: 30px;
+	right: 30px;
+	padding: 20px 12px;
+}
+.content::-webkit-scrollbar {
+	display: none;
+}
+
+.content img {
+	max-width: 100%;
+	object-fit: cover;
+}
