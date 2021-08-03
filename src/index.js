@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import MarketingEditor from './components/MarketingEditor';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div className="container">
+    <MarketingEditor />
+  </div>
+  ,
   document.getElementById('root')
 );
 
